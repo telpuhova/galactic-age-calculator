@@ -107,7 +107,7 @@ $(document).ready(function () {
     var ageCalculator = new _ageCalculator.AgeCalculator();
     var info = ageCalculator.getInfo(dateOfBirthString, parseInt(lifeExpectancy));
 
-    $("#result").append(info);
+    $("#result").text(info);
   });
 });
 

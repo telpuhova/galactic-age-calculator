@@ -1,0 +1,13 @@
+body {
+  margin-top: 25px;
+  background-image: url('./img/pic5.png');
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.custom-well {
+  background-color: rgba(193, 193, 193, 0.7);
+  width: 60%;
+  padding: 30px;
+  border: solid black 1px;
+}

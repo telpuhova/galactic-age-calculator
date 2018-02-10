@@ -9,6 +9,6 @@ $(document).ready(function() {
     let ageCalculator = new AgeCalculator();
     let info = ageCalculator.getInfo(dateOfBirthString, parseInt(lifeExpectancy));
 
-    $("#result").append(info);
+    $("#result").text(info);
   })
 })
