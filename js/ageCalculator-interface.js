@@ -1,6 +1,6 @@
 import { AgeCalculator } from './../js/ageCalculator.js';
 
-createOutputString(ageCalculator, dateOfBirthString, lifeExpectancy) {
+function createOutputString(ageCalculator, dateOfBirthString, lifeExpectancy) {
   let info = "your age\n";
 
   let dateOfBirth = new Date(dateOfBirthString);
