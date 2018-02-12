@@ -23,6 +23,7 @@ $ git clone https://github.com/telpuhova/galactic-age-calculator.git
 ```
 $ npm install
 $ bower install
+$ gulp build --production
 $ gulp serve
 ```
 
