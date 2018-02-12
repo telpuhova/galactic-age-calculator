@@ -1,22 +1,35 @@
-# _galactic-age-calculator_
+# Galactic age calculator
 
-#### _Galactic age calculator, 2/9/2018_
+Calculates your age depending on the planets solar year, 2/9/2018
 
-#### By _**telpuhova**_
+**By Natalia Telpukhova**
 
 ## Description
 
-_An application that calculates your age on different planets._
+An application that calculates your age on different planets. Written in JavaScript.
+
+## Functionality to be included in the future
+* Add other planets to the functionality.
+* Return the date of a user’s next birthday on each planet.
+* Develop a better user-interface.
 
 ## Setup
 
-* _clone repository_
-* _open index.html in browser_
+* clone repository
+```
+$ git clone https://github.com/telpuhova/galactic-age-calculator.git
+```
+* go into the cloned repo and run the following commands from your terminal:
+```
+$ npm install
+$ bower install
+$ gulp serve
+```
 
 ## Technologies Used
 
-_HTML, CSS, JavaScript, Node, npm, gulp, jasmine, karma, Bootstrap, jQuery_
+HTML, CSS, JavaScript, Node, npm, gulp, jasmine, karma, Bootstrap, jQuery
 
-### License
+## License
 
-Copyright (c) 2018 ****_telpuhova_****
+Copyright (c) 2018 Natalia Telpukhova
