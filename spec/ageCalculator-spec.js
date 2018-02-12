@@ -38,8 +38,5 @@ describe("AgeCalculator", function() {
     expect(ageCalculator.getYearsTillDeath(60, 20)).toEqual(40);
   });
 
-  it('should test getInfo', function() {
-    expect(typeof ageCalculator.getInfo(dateOfBirthString, 60)).toEqual("string");
-  });
 
 });
